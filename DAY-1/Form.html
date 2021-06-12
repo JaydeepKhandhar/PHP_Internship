@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<title> Personal Details </title>
+<style>
+    body{
+        background-color:rgb(191, 219, 230);
+    }
+    div{
+        max-width: 500px;
+        margin:auto;
+        padding: 15px;
+        border:1px solid black;  
+        background-color: skyblue;     
+    }
+</style>
+</head>
+<body>
+    
+<div>
+    <h3 style="text-align:center">Registration Form</h3>
+    <form>
+        <table>
+            <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><input type="text" placeholder="your name" id="fname"></td>
+            </tr>
+            <tr>
+                <td><label for="mname">Middle Name</label></td>
+                <td><input type="text" placeholder="father name" id="mname"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name</label></td>
+                <td><input type="text" id="lname" placeholder="Surname name"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><input type="text" id="address" placeholder="Enter your Address"></td>
+            </tr>
+            <tr>
+                <td><label for="mnum">Mobile number</label></td>
+                <td><input type="phone" id="mnum" placeholder="contact number" ></td>
+            </tr>
+            
+            <br>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <label for="g1">Male</label>
+                    <input type="radio" id="g1" name="gender" value="male">
+                    <label for="g2">Female</label>
+                    <input type="radio" id="g2" name="gender" value="female">
+                    <label for="g3">Other</label>
+                    <input type="radio" id="g3" name="gender" value="other">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="mail">Email</label></td>
+                <td><input type="email" id="mail" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password:</label></td>
+                <td><input type="password" id="pass" placeholder="Enter password">
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="reset" value="reset">Reset</button>
+                <button type="submit" value="submit">Submit</button></td>
+            </tr>
+        </table>
+        </form>
+</div>
+</body>
+</html>
